@@ -11,21 +11,13 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
-        android:text="Medicine short cae"
         android:theme="@style/Base.TextAppearance.AppCompat.Title.Inverse"
-
-        android:background="#656cba"/>
+        android:background="@color/colorPrimaryDark"/>
     <ListView
         android:id="@+id/displayList"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_weight="10"
         ></ListView>
-    <Button
-        android:layout_weight="1"
-        android:id="@+id/testBtn"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="test button"/>
 
 </LinearLayout>
