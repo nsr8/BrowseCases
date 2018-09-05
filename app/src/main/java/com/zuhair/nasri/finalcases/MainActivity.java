@@ -208,7 +208,7 @@ public class MainActivity extends AppCompatActivity {
 
                 Intent sendSection = new Intent(MainActivity.this, ScrollingActivity.class);
 
-                sendSection.putExtra("SECTION", "about");
+                sendSection.putExtra("SECTION", "About");
 
                 startActivity(sendSection);
 

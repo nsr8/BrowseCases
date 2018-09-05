@@ -82,51 +82,7 @@ public class ListActivity extends AppCompatActivity {
 
             // medicine short cases list
             // TODO add topic list
-            listOfTopics.add("med s1");
-            listOfTopics.add("med s2");
-            listOfTopics.add("med s3");
-            listOfTopics.add("med s1");
-            listOfTopics.add("med s2");
-            listOfTopics.add("med s3");
-            listOfTopics.add("med s1");
-            listOfTopics.add("med s2");
-            listOfTopics.add("med s3");
-            listOfTopics.add("med s1");
-            listOfTopics.add("med s2");
-            listOfTopics.add("med s3");
-            listOfTopics.add("med s1");
-            listOfTopics.add("med s2");
-            listOfTopics.add("med s3");
-            listOfTopics.add("med s1");
-            listOfTopics.add("med s2");
-            listOfTopics.add("med s3");
-            listOfTopics.add("med s1");
-            listOfTopics.add("med s2");
-            listOfTopics.add("med s3");
-            listOfTopics.add("med s1");
-            listOfTopics.add("med s2");
-            listOfTopics.add("med s3");
-            listOfTopics.add("med s1");
-            listOfTopics.add("med s2");
-            listOfTopics.add("med s3");
-            listOfTopics.add("med s1");
-            listOfTopics.add("med s2");
-            listOfTopics.add("med s3");
-            listOfTopics.add("med s1");
-            listOfTopics.add("med s2");
-            listOfTopics.add("med s3");
-            listOfTopics.add("med s1");
-            listOfTopics.add("med s2");
-            listOfTopics.add("med s3");
-            listOfTopics.add("med s1");
-            listOfTopics.add("med s2");
-            listOfTopics.add("med s3");
-            listOfTopics.add("med s1");
-            listOfTopics.add("med s2");
-            listOfTopics.add("med s3");
-            listOfTopics.add("med s1");
-            listOfTopics.add("med s2");
-            listOfTopics.add("med s3");
+            listOfTopics.add("Examine the cardiovascular system");
 
             //Add the last item to suggest a new topic
             listOfTopics.add("Suggest new topic");
@@ -136,8 +92,7 @@ public class ListActivity extends AppCompatActivity {
 
             // medicine long case list
             // TODO add topic list
-            listOfTopics.add("med L1");
-            listOfTopics.add("med l2");
+            listOfTopics.add("Infective mitral stenosis");
 
             //Add the last item to suggest a new topic
             listOfTopics.add("Suggest new topic");
@@ -149,8 +104,7 @@ public class ListActivity extends AppCompatActivity {
             // surgery short case list
             // TODO add topic list
             listOfTopics.add("Goiters");
-            listOfTopics.add("sur s1");
-            listOfTopics.add("sur s2");
+
 
             //Add the last item to suggest a new topic
             listOfTopics.add("Suggest new topic");
@@ -160,20 +114,18 @@ public class ListActivity extends AppCompatActivity {
 
             // surgery long case list
             // TODO add topic list
-            listOfTopics.add("sur L1");
-            listOfTopics.add("sur l2");
-            listOfTopics.add("sur lasrr");
+            listOfTopics.add("Benign prostatic hyperplasia");
 
             //Add the last item to suggest a new topic
             listOfTopics.add("Suggest new topic");
+
 
         }
         if (getIntent().getStringExtra("SECTION").equals("Pediatrics short cases")) {
 
             // paed short case list
             // TODO add topic list
-            listOfTopics.add("paed s1");
-            listOfTopics.add("paed s2");
+            listOfTopics.add("Examine the respiratory system");
 
             //Add the last item to suggest a new topic
             listOfTopics.add("Suggest new topic");
@@ -183,8 +135,7 @@ public class ListActivity extends AppCompatActivity {
 
             // paed long case list
             // TODO add topic list
-            listOfTopics.add("paed L1");
-            listOfTopics.add("paed l2");
+            listOfTopics.add("Cerebral palsy");
 
             //Add the last item to suggest a new topic
             listOfTopics.add("Suggest new topic");
@@ -194,8 +145,7 @@ public class ListActivity extends AppCompatActivity {
 
             // obs short case list
             // TODO add topic list
-            listOfTopics.add("obs s1");
-            listOfTopics.add("obs s2");
+            listOfTopics.add("O negative mother");
 
             //Add the last item to suggest a new topic
             listOfTopics.add("Suggest new topic");
@@ -205,8 +155,7 @@ public class ListActivity extends AppCompatActivity {
 
             // obs long case list
             // TODO add topic list
-            listOfTopics.add("obs L1");
-            listOfTopics.add("obs l2");
+            listOfTopics.add("Pregnancy induced hypertension");
 
             //Add the last item to suggest a new topic
             listOfTopics.add("Suggest new topic");
@@ -216,8 +165,7 @@ public class ListActivity extends AppCompatActivity {
 
             // gyne short case list
             // TODO add topic list
-            listOfTopics.add("gyne s1");
-            listOfTopics.add("gyne s2");
+            listOfTopics.add("Uterine fibroid");
 
             //Add the last item to suggest a new topic
             listOfTopics.add("Suggest new topic");
@@ -227,8 +175,7 @@ public class ListActivity extends AppCompatActivity {
 
             // gyne long case list
             // TODO add topic list
-            listOfTopics.add("med L1");
-            listOfTopics.add("med l2");
+            listOfTopics.add("Uterine prolapse");
 
             //Add the last item to suggest a new topic
             listOfTopics.add("Suggest new topic");

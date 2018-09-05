@@ -61,20 +61,20 @@ public class ScrollingActivity extends Activity {
         tetTexttView.setText(getIntent().getStringExtra("TOPIC"));*/
 
 
-        if (getIntent().getStringExtra("SECTION").equals("about")) {
+        if (getIntent().getStringExtra("SECTION").equals("About")) {
             //load the about documentation
             webView.loadUrl("file:///android_asset/aboutBrowseCases.html");
 
-        }if (getIntent().getStringExtra("SECTION").equals("Suggest new topic")) {
+        }else if (getIntent().getStringExtra("SECTION").equals("Suggest new topic")) {
             //load html page of suggest content
             webView.loadUrl("file:///android_asset/suggest.html");
 
-        }if (getIntent().getStringExtra("SECTION").equals("Goiters")) {
+        }else if (getIntent().getStringExtra("SECTION").equals("Goiters")) {
             //Goiter surgery short case
             webView.loadUrl("file:///android_asset/ss_goiters.html");
         } else {
-            webView.loadUrl("file:///android_asset/contribute.html");
-
+           //catch all errors here
+          webView.loadUrl("file:///android_asset/contribute.html");
         }
 
 
