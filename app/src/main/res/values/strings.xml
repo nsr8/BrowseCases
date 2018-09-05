@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">FinalCases</string>
     <string name="title_activity_scrolling">ScrollingActivity</string>
-    <string name="medicineS">Medicine short cases</string>
+    <string name="medicineS">Medicine short cases</string> <!-- TODO  bloody change to see if working-->
     <string name="medicineL">Medicine long cases</string>
     <string name="surgeryS">Surgery short cases</string>
     <string name="surgeryL">Surgery long cases</string>

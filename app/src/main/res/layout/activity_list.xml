@@ -14,6 +14,7 @@
         android:theme="@style/Base.TextAppearance.AppCompat.Title.Inverse"
         android:background="@color/colorPrimaryDark"/>
     <ListView
+        android:layout_gravity="center_vertical"
         android:id="@+id/displayList"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

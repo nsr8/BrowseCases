@@ -51,8 +51,6 @@ public class MainActivity extends AppCompatActivity {
                 //send the text on the button as stringExtra "SECTION"
                 sendSection.putExtra("SECTION", medicineS.getText().toString());
 
-                //send 1 for medicineS as intExtra "SECTION_NUMBER"
-                sendSection.putExtra("SECTION_NUMBER",1);
                 startActivity(sendSection);
 
             }
@@ -69,9 +67,6 @@ public class MainActivity extends AppCompatActivity {
 
                //send text on the button as extra
                 sendSection.putExtra("SECTION", medicineL.getText().toString());
-
-                //send 2 for medicineL
-                sendSection.putExtra("SECTION_NUMBER",2);
 
                 startActivity(sendSection);
 

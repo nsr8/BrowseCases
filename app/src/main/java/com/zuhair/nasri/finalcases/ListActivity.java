@@ -1,5 +1,6 @@
 package com.zuhair.nasri.finalcases;
 
+import android.content.Context;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -17,8 +18,6 @@ public class ListActivity extends AppCompatActivity {
 
     //declare variable
     TextView displaySection;
-
-    // TODO: new array populated with the list of topics
     ArrayList<String> listOfTopics;
 
 
@@ -64,28 +63,133 @@ public class ListActivity extends AppCompatActivity {
     //compares against the button
     //populates the lis with topics on that section
     void getTopics() {
-
-       /* //Compare the strings works after commenting out // TODO remove this when working
-        if (getIntent().getStringExtra("SECTION_NUMBER").equals("1")) {
-            listOfTopics.add("case 1");
-            listOfTopics.add("case 2");
-            listOfTopics.add("case 3");
-
-        }else if (getIntent().getStringExtra("SECTION_NUMBER").equals("2")){
-            listOfTopics.add("surS 1");
-            listOfTopics.add("srS 2");
-
-        } else {*/
+        // TODO make the code more efficient by replacing the hard corded stings such as "Medicine short cases" with referene to R.id.......stings
 
 
-            listOfTopics.add("X-Men");
-            listOfTopics.add("IRONMAN");
-            listOfTopics.add("SPIDY");
-            listOfTopics.add("NARNIA");
-            listOfTopics.add("LIONKING");
-            listOfTopics.add("AVENGERS");
+        if (getIntent().getStringExtra("SECTION").equals("Medicine short cases")) {
 
-       //missing closing bracket } here
+            // medicine short cases list
+            // TODO add topic list
+            listOfTopics.add("med s1");
+            listOfTopics.add("med s2");
+            listOfTopics.add("med s3");
+            listOfTopics.add("med s1");
+            listOfTopics.add("med s2");
+            listOfTopics.add("med s3");
+            listOfTopics.add("med s1");
+            listOfTopics.add("med s2");
+            listOfTopics.add("med s3");
+            listOfTopics.add("med s1");
+            listOfTopics.add("med s2");
+            listOfTopics.add("med s3");
+            listOfTopics.add("med s1");
+            listOfTopics.add("med s2");
+            listOfTopics.add("med s3");
+            listOfTopics.add("med s1");
+            listOfTopics.add("med s2");
+            listOfTopics.add("med s3");
+            listOfTopics.add("med s1");
+            listOfTopics.add("med s2");
+            listOfTopics.add("med s3");
+            listOfTopics.add("med s1");
+            listOfTopics.add("med s2");
+            listOfTopics.add("med s3");
+            listOfTopics.add("med s1");
+            listOfTopics.add("med s2");
+            listOfTopics.add("med s3");
+            listOfTopics.add("med s1");
+            listOfTopics.add("med s2");
+            listOfTopics.add("med s3");
+            listOfTopics.add("med s1");
+            listOfTopics.add("med s2");
+            listOfTopics.add("med s3");
+            listOfTopics.add("med s1");
+            listOfTopics.add("med s2");
+            listOfTopics.add("med s3");
+            listOfTopics.add("med s1");
+            listOfTopics.add("med s2");
+            listOfTopics.add("med s3");
+            listOfTopics.add("med s1");
+            listOfTopics.add("med s2");
+            listOfTopics.add("med s3");
+            listOfTopics.add("med s1");
+            listOfTopics.add("med s2");
+            listOfTopics.add("med s3");
+
+        }
+        if (getIntent().getStringExtra("SECTION").equals("Medicine long cases")) {
+
+            // medicine long case list
+            // TODO add topic list
+            listOfTopics.add("med L1");
+            listOfTopics.add("med l2");
+
+        }
+        if (getIntent().getStringExtra("SECTION").equals("Surgery short cases")) {
+
+            // surgery short case list
+            // TODO add topic list
+            listOfTopics.add("sur s1");
+            listOfTopics.add("sur s2");
+
+        }
+        if (getIntent().getStringExtra("SECTION").equals("Surgery long cases")) {
+
+            // surgery long case list
+            // TODO add topic list
+            listOfTopics.add("sur L1");
+            listOfTopics.add("sur l2");
+            listOfTopics.add("sur lasrr");
+
+        }
+        if (getIntent().getStringExtra("SECTION").equals("Pediatrics short cases")) {
+
+            // paed short case list
+            // TODO add topic list
+            listOfTopics.add("paed s1");
+            listOfTopics.add("paed s2");
+
+        }
+        if (getIntent().getStringExtra("SECTION").equals("Pediatrics long cases")) {
+
+            // paed long case list
+            // TODO add topic list
+            listOfTopics.add("paed L1");
+            listOfTopics.add("paed l2");
+
+        }
+        if (getIntent().getStringExtra("SECTION").equals("Obstetrics short cases")) {
+
+            // obs short case list
+            // TODO add topic list
+            listOfTopics.add("obs s1");
+            listOfTopics.add("obs s2");
+
+        }
+        if (getIntent().getStringExtra("SECTION").equals("Obstetrics long cases")) {
+
+            // obs long case list
+            // TODO add topic list
+            listOfTopics.add("obs L1");
+            listOfTopics.add("obs l2");
+
+        }
+        if (getIntent().getStringExtra("SECTION").equals("Gynecology short cases")) {
+
+            // gyne short case list
+            // TODO add topic list
+            listOfTopics.add("gyne s1");
+            listOfTopics.add("gyne s2");
+
+        }
+        if (getIntent().getStringExtra("SECTION").equals("Gynecology long cases")) {
+
+            // gyne long case list
+            // TODO add topic list
+            listOfTopics.add("med L1");
+            listOfTopics.add("med l2");
+
+        }
 
 
     }
