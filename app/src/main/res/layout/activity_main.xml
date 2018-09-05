@@ -26,13 +26,13 @@
                     android:id="@+id/medicineL"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Medicine long cases" />
+                    android:text="@string/medicineL" />
 
                 <Button
                     android:id="@+id/surgeryL"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Surgery long cases" />
+                    android:text="@string/surgeryL" />
 
 
 
@@ -40,19 +40,19 @@
                     android:id="@+id/paedL"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Pediatrics long cases" />
+                    android:text="@string/paedL" />
 
                 <Button
                     android:id="@+id/obsL"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Obstetrics long cases" />
+                    android:text="@string/obsL" />
 
                 <Button
                     android:id="@+id/gyneL"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Gynecology long cases" />
+                    android:text="@string/gyneL" />
 
                 <Button
                     android:layout_width="match_parent"
@@ -71,31 +71,31 @@
                     android:id="@+id/medicineS"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Medicine short cases" />
+                    android:text="@string/medicineS" />
 
                 <Button
                     android:id="@+id/surgeryS"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Surgery short cases" />
+                    android:text="@string/surgeryS" />
 
                 <Button
                     android:id="@+id/paedS"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Pediatrics short cases" />
+                    android:text="@string/paedS" />
 
                 <Button
                     android:id="@+id/obsS"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Obstetrics short cases" />
+                    android:text="@string/obsS" />
 
                 <Button
                     android:id="@+id/gyneS"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Gynecology short cases" />
+                    android:text="@string/gyneS" />
 
                  <Button
                      android:layout_width="match_parent"

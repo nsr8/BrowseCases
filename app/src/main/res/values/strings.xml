@@ -1,6 +1,16 @@
 <resources>
     <string name="app_name">FinalCases</string>
     <string name="title_activity_scrolling">ScrollingActivity</string>
+    <string name="medicineS">Medicine short cases</string>
+    <string name="medicineL">Medicine long cases</string>
+    <string name="surgeryS">Surgery short cases</string>
+    <string name="surgeryL">Surgery long cases</string>
+    <string name="paedS">Pediatrics short cases</string>
+    <string name="paedL">Pediatrics long cases</string>
+    <string name="obsS">Obstetrics short cases</string>
+    <string name="obsL">Obstetrics long cases</string>
+    <string name="gyneS">Gynecology short cases</string>
+    <string name="gyneL">Gynecology long cases</string>
     <string name="large_text">
         "Material is the metaphor.\n\n"
 
