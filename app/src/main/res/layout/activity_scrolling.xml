@@ -5,10 +5,18 @@
     android:layout_height="match_parent"
     tools:context=".ScrollingActivity">
 
-    <TextView
-        android:id="@+id/testText"
+    <WebView
+
+        android:id="@+id/webViewShowNote"
+
         android:layout_width="match_parent"
-        android:layout_height="match_parent"></TextView>
+
+        android:layout_height="match_parent">
+
+
+
+    </WebView>
+
 
 
 

@@ -128,6 +128,9 @@ public class ListActivity extends AppCompatActivity {
             listOfTopics.add("med s2");
             listOfTopics.add("med s3");
 
+            //Add the last item to suggest a new topic
+            listOfTopics.add("Suggest new topic");
+
         }
         if (getIntent().getStringExtra("SECTION").equals("Medicine long cases")) {
 
@@ -136,6 +139,10 @@ public class ListActivity extends AppCompatActivity {
             listOfTopics.add("med L1");
             listOfTopics.add("med l2");
 
+            //Add the last item to suggest a new topic
+            listOfTopics.add("Suggest new topic");
+
+
         }
         if (getIntent().getStringExtra("SECTION").equals("Surgery short cases")) {
 
@@ -143,6 +150,9 @@ public class ListActivity extends AppCompatActivity {
             // TODO add topic list
             listOfTopics.add("sur s1");
             listOfTopics.add("sur s2");
+
+            //Add the last item to suggest a new topic
+            listOfTopics.add("Suggest new topic");
 
         }
         if (getIntent().getStringExtra("SECTION").equals("Surgery long cases")) {
@@ -153,6 +163,9 @@ public class ListActivity extends AppCompatActivity {
             listOfTopics.add("sur l2");
             listOfTopics.add("sur lasrr");
 
+            //Add the last item to suggest a new topic
+            listOfTopics.add("Suggest new topic");
+
         }
         if (getIntent().getStringExtra("SECTION").equals("Pediatrics short cases")) {
 
@@ -160,6 +173,9 @@ public class ListActivity extends AppCompatActivity {
             // TODO add topic list
             listOfTopics.add("paed s1");
             listOfTopics.add("paed s2");
+
+            //Add the last item to suggest a new topic
+            listOfTopics.add("Suggest new topic");
 
         }
         if (getIntent().getStringExtra("SECTION").equals("Pediatrics long cases")) {
@@ -169,6 +185,9 @@ public class ListActivity extends AppCompatActivity {
             listOfTopics.add("paed L1");
             listOfTopics.add("paed l2");
 
+            //Add the last item to suggest a new topic
+            listOfTopics.add("Suggest new topic");
+
         }
         if (getIntent().getStringExtra("SECTION").equals("Obstetrics short cases")) {
 
@@ -176,6 +195,9 @@ public class ListActivity extends AppCompatActivity {
             // TODO add topic list
             listOfTopics.add("obs s1");
             listOfTopics.add("obs s2");
+
+            //Add the last item to suggest a new topic
+            listOfTopics.add("Suggest new topic");
 
         }
         if (getIntent().getStringExtra("SECTION").equals("Obstetrics long cases")) {
@@ -185,6 +207,9 @@ public class ListActivity extends AppCompatActivity {
             listOfTopics.add("obs L1");
             listOfTopics.add("obs l2");
 
+            //Add the last item to suggest a new topic
+            listOfTopics.add("Suggest new topic");
+
         }
         if (getIntent().getStringExtra("SECTION").equals("Gynecology short cases")) {
 
@@ -193,6 +218,9 @@ public class ListActivity extends AppCompatActivity {
             listOfTopics.add("gyne s1");
             listOfTopics.add("gyne s2");
 
+            //Add the last item to suggest a new topic
+            listOfTopics.add("Suggest new topic");
+
         }
         if (getIntent().getStringExtra("SECTION").equals("Gynecology long cases")) {
 
@@ -200,6 +228,9 @@ public class ListActivity extends AppCompatActivity {
             // TODO add topic list
             listOfTopics.add("med L1");
             listOfTopics.add("med l2");
+
+            //Add the last item to suggest a new topic
+            listOfTopics.add("Suggest new topic");
 
         }
 

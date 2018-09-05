@@ -2,12 +2,15 @@ package com.zuhair.nasri.finalcases;
 
 import android.os.Bundle;
 import android.app.Activity;
+import android.webkit.WebView;
 import android.widget.TextView;
 
 public class ScrollingActivity extends Activity {
 
     //declare varialbes
     TextView tetTexttView;
+    WebView webViewAbout;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -15,8 +18,15 @@ public class ScrollingActivity extends Activity {
         setContentView(R.layout.activity_scrolling);
 
         // TODO get and display topic in test activity
-        tetTexttView =findViewById(R.id.testText);
-        tetTexttView.setText(getIntent().getStringExtra("TOPIC"));
+        /*tetTexttView =findViewById(R.id.testText);
+        tetTexttView.setText(getIntent().getStringExtra("TOPIC"));*/
+
+
+
+
+        webViewAbout = findViewById(R.id.webViewShowNote);
+
+        webViewAbout.loadUrl("file:///android_asset/aboutBrowseCases.html");
 
     }
 }
