@@ -55,6 +55,7 @@
                     android:text="@string/gyneL" />
 
                 <Button
+                    android:id="@+id/about"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="About"/>
@@ -98,6 +99,7 @@
                     android:text="@string/gyneS" />
 
                  <Button
+                     android:id="@+id/searchall"
                      android:layout_width="match_parent"
                      android:layout_height="wrap_content"
                      android:text="Search"/>

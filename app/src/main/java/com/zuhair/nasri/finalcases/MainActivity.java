@@ -19,6 +19,8 @@ public class MainActivity extends AppCompatActivity {
     Button obsL;
     Button gyneS;
     Button gyneL;
+    Button about;
+    Button search;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -37,6 +39,8 @@ public class MainActivity extends AppCompatActivity {
         obsL = findViewById(R.id.obsL);
         gyneS = findViewById(R.id.gyneS);
         gyneL = findViewById(R.id.gyneL);
+        about= findViewById(R.id.about);
+        search= findViewById(R.id.searchall);
 
 
 //set onClickListner for medicineS
@@ -190,6 +194,36 @@ public class MainActivity extends AppCompatActivity {
                 Intent sendSection = new Intent(MainActivity.this, ListActivity.class);
 
                 sendSection.putExtra("SECTION", gyneL.getText().toString());
+
+                startActivity(sendSection);
+
+            }
+        });
+        //set onClickListner for about button
+        about.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+
+            public void onClick(View view) {
+
+                Intent sendSection = new Intent(MainActivity.this, ScrollingActivity.class);
+
+                sendSection.putExtra("SECTION", "about");
+
+                startActivity(sendSection);
+
+            }
+        });
+        //set onClickListner for search button
+        search.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+
+            public void onClick(View view) {
+
+                Intent sendSection = new Intent(MainActivity.this, ScrollingActivity.class);
+
+                sendSection.putExtra("SECTION", "search");
 
                 startActivity(sendSection);
 

@@ -54,14 +54,14 @@ public class ListActivity extends AppCompatActivity {
                 String selectedTopic = listOfTopics.get(position);
 
                 // TODO default toast. remove after completion
-                Toast.makeText(getApplicationContext(), "your selected topic is : " + selectedTopic, Toast.LENGTH_LONG).show();
+                //Toast.makeText(getApplicationContext(), "your selected topic is : " + selectedTopic, Toast.LENGTH_LONG).show();
 
 
                 // TODO make an intent to display the topic in scroll view
                 Intent sendTopic = new Intent(ListActivity.this, ScrollingActivity.class);
 
                 //send text on the button as extra
-                sendTopic.putExtra("TOPIC", selectedTopic);
+                sendTopic.putExtra("SECTION", selectedTopic);
 
                 startActivity(sendTopic);
 
@@ -148,6 +148,7 @@ public class ListActivity extends AppCompatActivity {
 
             // surgery short case list
             // TODO add topic list
+            listOfTopics.add("Goiters");
             listOfTopics.add("sur s1");
             listOfTopics.add("sur s2");
 
