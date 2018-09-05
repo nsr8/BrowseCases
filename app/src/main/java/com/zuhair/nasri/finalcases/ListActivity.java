@@ -51,8 +51,20 @@ public class ListActivity extends AppCompatActivity {
         displayList.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             // argument position gives the index of item which is clicked
             public void onItemClick(AdapterView<?> arg0, View v, int position, long arg3) {
-                String selectedmovie = listOfTopics.get(position);
-                Toast.makeText(getApplicationContext(), "your selected topic is : " + selectedmovie, Toast.LENGTH_LONG).show();
+                String selectedTopic = listOfTopics.get(position);
+
+                // TODO default toast. remove after completion
+                Toast.makeText(getApplicationContext(), "your selected topic is : " + selectedTopic, Toast.LENGTH_LONG).show();
+
+
+                // TODO make an intent to display the topic in scroll view
+                Intent sendTopic = new Intent(ListActivity.this, ScrollingActivity.class);
+
+                //send text on the button as extra
+                sendTopic.putExtra("TOPIC", selectedTopic);
+
+                startActivity(sendTopic);
+
             }
         });
 
