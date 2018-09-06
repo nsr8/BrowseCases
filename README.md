@@ -5,9 +5,9 @@ Weekly beta updates will be released through the WhatsApp group https://chat.wha
 Join the group to receive updates on the progress of the app.
 Your contributions towards the development of the app is allways welcome:smile:.
 
-Please follow these instructions for acadamic contributions
+Please follow these step-by-step instructions for acadamic contributions
 -
-1.	Please select a topic that you would like to write a note from the list below. Select a one that is marked open.
+1.	Please select a topic that you would like to write a note from the list below. Select a one that is marked open. **If you want to add notes on a topic not yet in the list, start from the second step!**
 2.	Join the WhatsApp group for Academic Contributors at https://chat.whatsapp.com/invite/6Cwzabi5ocx1d2pz8nSjYR 
 3.	Tell the others what topic you have selected. This will prevent two contributors writing on the same topic. If there are other contributors who have selected the same topic, collaborate with them.
 4.	Start typing the notes. Use bullets, lists and diagrams if need. Keep in mind that this is a note collection rather than a text book. Throw grammar out of the window.
@@ -22,7 +22,7 @@ Section | Topic | status |Contributor
 ------------ | ------------- |  ------------- | ----------
 Medicine short case |   | 
 Medicine long case |   |
-Surgery short case |   |
+Surgery short case | Goiters  | Writing | Nasri Zuhair
 Surgery long case |   |
 Pediatrics short case |   |
 Pediatrics long case |   |
