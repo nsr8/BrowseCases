@@ -18,10 +18,10 @@ Thank you very much for deciding to contribute! The topic list follows.
 
 Topic list
 -
-Section | Topic | status |Contributor
+Section | Topic | Status |Contributor
 ------------ | ------------- |  ------------- | ----------
 Medicine short case |   | 
-Medicine long case |   |
+Medicine long case | Mitral stenosis  |Writing  | Rashmi Goonasekara
 Surgery short case | Goiters  | Writing | Nasri Zuhair
 Surgery long case |   |
 Pediatrics short case |   |
