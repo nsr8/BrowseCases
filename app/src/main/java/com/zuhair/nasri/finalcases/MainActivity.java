@@ -21,6 +21,8 @@ public class MainActivity extends AppCompatActivity {
     Button obsL;
     Button gyneS;
     Button gyneL;
+    Button psychS;
+    Button psychL;
     Button about;
     Button feedback;
     FloatingActionButton searchFAB;
@@ -30,8 +32,6 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        //initialize the FAB
-        searchFAB= findViewById(R.id.searchFAB);
 
         //initialize all variables
         medicineS = findViewById(R.id.medicineS);
@@ -44,8 +44,14 @@ public class MainActivity extends AppCompatActivity {
         obsL = findViewById(R.id.obsL);
         gyneS = findViewById(R.id.gyneS);
         gyneL = findViewById(R.id.gyneL);
+        psychS= findViewById(R.id.psychS);
+        psychL=findViewById(R.id.psychL);
         about = findViewById(R.id.about);
         feedback = findViewById(R.id.feedback);
+
+        //initialize the FAB
+        searchFAB= findViewById(R.id.searchFAB);
+
 
 
 //set onClickListner for medicineS
@@ -199,6 +205,38 @@ public class MainActivity extends AppCompatActivity {
                 Intent sendSection = new Intent(MainActivity.this, ListActivity.class);
 
                 sendSection.putExtra("SECTION", gyneL.getText().toString());
+
+                startActivity(sendSection);
+
+            }
+        });
+
+        //set onClickListner for psychS
+        psychS.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+
+            public void onClick(View view) {
+
+                Intent sendSection = new Intent(MainActivity.this, ListActivity.class);
+
+                sendSection.putExtra("SECTION", psychS.getText().toString());
+
+                startActivity(sendSection);
+
+            }
+        });
+
+        //set onClickListner for psychL
+        psychL.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+
+            public void onClick(View view) {
+
+                Intent sendSection = new Intent(MainActivity.this, ListActivity.class);
+
+                sendSection.putExtra("SECTION", psychL.getText().toString());
 
                 startActivity(sendSection);
 

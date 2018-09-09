@@ -201,7 +201,25 @@ public class ListActivity extends AppCompatActivity {
             //Add the last item to suggest a new topic
             listOfTopics.add("Suggest new topic");
 
+        }if (getIntent().getStringExtra("SECTION").equals("Psychiatry short cases")) {
+
+            // psych short case list
+            // TODO add topic list
+            listOfTopics.add("Psychiatry short cases? Really?");
+
+            //Add the last item to suggest a new topic
+            listOfTopics.add("Suggest new topic");
+
+
+        } if (getIntent().getStringExtra("SECTION").equals("Psychiatry long cases")) {
+
+            // psych long case list
+            // TODO add topic list
+
+            //Add the last item to suggest a new topic
+            listOfTopics.add("Suggest new topic");
         }
+
 
 
     }

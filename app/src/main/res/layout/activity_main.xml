@@ -68,6 +68,14 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="@string/gyneL" />
+                <Button
+                    android:id="@+id/psychL"
+                    android:theme="@style/PrimaryButton"
+                    android:textSize="@dimen/main_btn_text"
+                    android:padding="@dimen/main_btn_padding"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/psychL" />
 
                 <Button
                     android:id="@+id/about"
@@ -128,6 +136,14 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="@string/gyneS" />
+                <Button
+                    android:id="@+id/psychS"
+                    android:theme="@style/PrimaryButton"
+                    android:textSize="@dimen/main_btn_text"
+                    android:padding="@dimen/main_btn_padding"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/psychS" />
 
                  <Button
                      android:id="@+id/feedback"

@@ -13,7 +13,7 @@
         android:textColor="@color/colorTextDark"
         android:background="@color/colorPrimaryLight"
         android:textAlignment="center"
-        android:textSize="28sp"
+        android:textSize="20sp"
 
                 />
     <ListView
