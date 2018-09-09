@@ -1,10 +1,12 @@
 package com.zuhair.nasri.finalcases;
 
 import android.content.Intent;
+import android.support.design.widget.FloatingActionButton;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -20,13 +22,16 @@ public class MainActivity extends AppCompatActivity {
     Button gyneS;
     Button gyneL;
     Button about;
-    Button search;
+    Button feedback;
+    FloatingActionButton searchFAB;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        //initialize the FAB
+        searchFAB= findViewById(R.id.searchFAB);
 
         //initialize all variables
         medicineS = findViewById(R.id.medicineS);
@@ -39,8 +44,8 @@ public class MainActivity extends AppCompatActivity {
         obsL = findViewById(R.id.obsL);
         gyneS = findViewById(R.id.gyneS);
         gyneL = findViewById(R.id.gyneL);
-        about= findViewById(R.id.about);
-        search= findViewById(R.id.searchall);
+        about = findViewById(R.id.about);
+        feedback = findViewById(R.id.feedback);
 
 
 //set onClickListner for medicineS
@@ -60,7 +65,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
- //set onClickListner for medicineL
+        //set onClickListner for medicineL
         medicineL.setOnClickListener(new View.OnClickListener() {
 
             @Override
@@ -69,7 +74,7 @@ public class MainActivity extends AppCompatActivity {
 
                 Intent sendSection = new Intent(MainActivity.this, ListActivity.class);
 
-               //send text on the button as extra
+                //send text on the button as extra
                 sendSection.putExtra("SECTION", medicineL.getText().toString());
 
                 startActivity(sendSection);
@@ -121,7 +126,7 @@ public class MainActivity extends AppCompatActivity {
 
             }
         });
- //set onClickListner for paedL
+        //set onClickListner for paedL
         paedL.setOnClickListener(new View.OnClickListener() {
 
             @Override
@@ -214,8 +219,8 @@ public class MainActivity extends AppCompatActivity {
 
             }
         });
-        //set onClickListner for search button
-        search.setOnClickListener(new View.OnClickListener() {
+        //set onClickListner for feedback button
+        feedback.setOnClickListener(new View.OnClickListener() {
 
             @Override
 
@@ -223,11 +228,22 @@ public class MainActivity extends AppCompatActivity {
 
                 Intent sendSection = new Intent(MainActivity.this, ScrollingActivity.class);
 
-                sendSection.putExtra("SECTION", "search");
+                sendSection.putExtra("SECTION", "feedback");
 
                 startActivity(sendSection);
 
             }
+        });
+        //set onClickListner for FAB
+
+        searchFAB.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                // display toast onclick
+                Toast.makeText(MainActivity.this, "Search button is under construction", Toast.LENGTH_LONG).show();
+
+                // TODO Implement the search function
+            }
+
         });
 
     }

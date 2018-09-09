@@ -10,9 +10,12 @@
         android:id="@+id/displaySection"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:gravity="center"
-        android:theme="@style/Base.TextAppearance.AppCompat.Title.Inverse"
-        android:background="@color/colorPrimaryDark"/>
+        android:textColor="@color/colorTextDark"
+        android:background="@color/colorPrimaryLight"
+        android:textAlignment="center"
+        android:textSize="28sp"
+
+                />
     <ListView
         android:layout_gravity="center_vertical"
         android:id="@+id/displayList"

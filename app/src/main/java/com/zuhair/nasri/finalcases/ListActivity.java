@@ -82,7 +82,6 @@ public class ListActivity extends AppCompatActivity {
 
             // medicine short cases list
             // TODO add topic list
-            listOfTopics.add("Examine the cardiovascular system");
 
             //Add the last item to suggest a new topic
             listOfTopics.add("Suggest new topic");
@@ -92,7 +91,7 @@ public class ListActivity extends AppCompatActivity {
 
             // medicine long case list
             // TODO add topic list
-            listOfTopics.add("Infective mitral stenosis");
+            listOfTopics.add("Mitral stenosis");
 
             //Add the last item to suggest a new topic
             listOfTopics.add("Suggest new topic");
@@ -114,7 +113,7 @@ public class ListActivity extends AppCompatActivity {
 
             // surgery long case list
             // TODO add topic list
-            listOfTopics.add("Benign prostatic hyperplasia");
+            listOfTopics.add("Dysphagia");
 
             //Add the last item to suggest a new topic
             listOfTopics.add("Suggest new topic");
@@ -125,7 +124,6 @@ public class ListActivity extends AppCompatActivity {
 
             // paed short case list
             // TODO add topic list
-            listOfTopics.add("Examine the respiratory system");
 
             //Add the last item to suggest a new topic
             listOfTopics.add("Suggest new topic");
@@ -135,7 +133,34 @@ public class ListActivity extends AppCompatActivity {
 
             // paed long case list
             // TODO add topic list
-            listOfTopics.add("Cerebral palsy");
+            listOfTopics.add("Acute fever");
+            listOfTopics.add("Prolonged fever");
+            listOfTopics.add("Cyanotic heart diseases");
+            listOfTopics.add("Asthma");
+            listOfTopics.add("Pneumonia");
+            listOfTopics.add("Blood and mucus diarrhea");
+            listOfTopics.add("Nephrotic syndrome");
+            listOfTopics.add("Hematuria");
+            listOfTopics.add("Acute flaccid paralysis");
+            listOfTopics.add("Meningitis");
+            listOfTopics.add("Encephalitis");
+            listOfTopics.add("Seizures");
+            listOfTopics.add("Anemia");
+            listOfTopics.add("Thalalasemia");
+            listOfTopics.add("Neonatal sepsis");
+
+
+
+
+
+
+
+
+
+
+
+
+
 
             //Add the last item to suggest a new topic
             listOfTopics.add("Suggest new topic");
@@ -145,7 +170,6 @@ public class ListActivity extends AppCompatActivity {
 
             // obs short case list
             // TODO add topic list
-            listOfTopics.add("O negative mother");
 
             //Add the last item to suggest a new topic
             listOfTopics.add("Suggest new topic");
@@ -155,7 +179,6 @@ public class ListActivity extends AppCompatActivity {
 
             // obs long case list
             // TODO add topic list
-            listOfTopics.add("Pregnancy induced hypertension");
 
             //Add the last item to suggest a new topic
             listOfTopics.add("Suggest new topic");
@@ -165,7 +188,6 @@ public class ListActivity extends AppCompatActivity {
 
             // gyne short case list
             // TODO add topic list
-            listOfTopics.add("Uterine fibroid");
 
             //Add the last item to suggest a new topic
             listOfTopics.add("Suggest new topic");
@@ -175,7 +197,6 @@ public class ListActivity extends AppCompatActivity {
 
             // gyne long case list
             // TODO add topic list
-            listOfTopics.add("Uterine prolapse");
 
             //Add the last item to suggest a new topic
             listOfTopics.add("Suggest new topic");

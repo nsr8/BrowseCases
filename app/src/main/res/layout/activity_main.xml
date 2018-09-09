@@ -24,12 +24,18 @@
 
                 <Button
                     android:id="@+id/medicineL"
+                    android:theme="@style/PrimaryButton"
+                    android:textSize="@dimen/main_btn_text"
+                    android:padding="@dimen/main_btn_padding"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="@string/medicineL" />
 
                 <Button
                     android:id="@+id/surgeryL"
+                    android:theme="@style/PrimaryButton"
+                    android:textSize="@dimen/main_btn_text"
+                    android:padding="@dimen/main_btn_padding"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="@string/surgeryL" />
@@ -38,24 +44,34 @@
 
                 <Button
                     android:id="@+id/paedL"
+                    android:theme="@style/PrimaryButton"
+                    android:textSize="@dimen/main_btn_text"
+                    android:padding="@dimen/main_btn_padding"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="@string/paedL" />
 
                 <Button
                     android:id="@+id/obsL"
+                    android:theme="@style/PrimaryButton"
+                    android:textSize="@dimen/main_btn_text"
+                    android:padding="@dimen/main_btn_padding"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="@string/obsL" />
 
                 <Button
                     android:id="@+id/gyneL"
+                    android:theme="@style/PrimaryButton"
+                    android:textSize="@dimen/main_btn_text"
+                    android:padding="@dimen/main_btn_padding"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="@string/gyneL" />
 
                 <Button
                     android:id="@+id/about"
+                    android:theme="@style/PrimaryFlatButton"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="About"/>
@@ -70,39 +86,55 @@
 
                 <Button
                     android:id="@+id/medicineS"
+                    android:theme="@style/PrimaryButton"
+                    android:textSize="@dimen/main_btn_text"
+                    android:padding="@dimen/main_btn_padding"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="@string/medicineS" />
 
                 <Button
                     android:id="@+id/surgeryS"
+                    android:theme="@style/PrimaryButton"
+                    android:textSize="@dimen/main_btn_text"
+                    android:padding="@dimen/main_btn_padding"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="@string/surgeryS" />
 
                 <Button
                     android:id="@+id/paedS"
+                    android:theme="@style/PrimaryButton"
+                    android:textSize="@dimen/main_btn_text"
+                    android:padding="@dimen/main_btn_padding"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="@string/paedS" />
 
                 <Button
                     android:id="@+id/obsS"
+                    android:theme="@style/PrimaryButton"
+                    android:textSize="@dimen/main_btn_text"
+                    android:padding="@dimen/main_btn_padding"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="@string/obsS" />
 
                 <Button
                     android:id="@+id/gyneS"
+                    android:theme="@style/PrimaryButton"
+                    android:textSize="@dimen/main_btn_text"
+                    android:padding="@dimen/main_btn_padding"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="@string/gyneS" />
 
                  <Button
-                     android:id="@+id/searchall"
+                     android:id="@+id/feedback"
+                     android:theme="@style/PrimaryFlatButton"
                      android:layout_width="match_parent"
                      android:layout_height="wrap_content"
-                     android:text="Search"/>
+                     android:text="Feedback"/>
             </LinearLayout>
 
 
@@ -110,6 +142,22 @@
 
 
     </ScrollView>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/searchFAB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="25dp"
+
+        app:layout_anchorGravity="bottom|end"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:useCompatPadding="true"
+
+        android:clickable="true"
+        app:srcCompat="?android:attr/actionModeWebSearchDrawable"
+        tools:layout_editor_absoluteX="387dp"
+        tools:layout_editor_absoluteY="619dp" />
 
 
 </android.support.constraint.ConstraintLayout>
