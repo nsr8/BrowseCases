@@ -22,8 +22,8 @@ Section | Topic | Status |Contributor
 ------------ | ------------- |  ------------- | ----------
 Medicine short case |   | 
 Medicine long case | Mitral stenosis  |Writing  | Rashmi Goonasekara
-Surgery short case | Goiters  | Writing | Nasri Zuhair
-Surgery long case |   |
+Surgery short case | Goiters  | Published | Nasri Zuhair
+Surgery long case |  Dysphagia |Writing |Hanan Ahamed
 Pediatrics short case |   |
 Pediatrics long case |   |
 Pediatrics long case | Acute fever |  open
