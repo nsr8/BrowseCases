@@ -10,22 +10,18 @@
         android:id="@+id/displaySection"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:gravity="center"
-        android:text="Medicine short cae"
-        android:theme="@style/Base.TextAppearance.AppCompat.Title.Inverse"
+        android:textColor="@color/colorTextDark"
+        android:background="@color/colorPrimaryLight"
+        android:textAlignment="center"
+        android:textSize="20sp"
 
-        android:background="#656cba"/>
+                />
     <ListView
+        android:layout_gravity="center_vertical"
         android:id="@+id/displayList"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_weight="10"
         ></ListView>
-    <Button
-        android:layout_weight="1"
-        android:id="@+id/testBtn"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="test button"/>
 
 </LinearLayout>

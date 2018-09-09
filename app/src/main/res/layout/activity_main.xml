@@ -12,49 +12,74 @@
         android:orientation="vertical">
 
         <LinearLayout
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal">
 
             <LinearLayout
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="vertical"
                 android:layout_weight="1">
 
                 <Button
                     android:id="@+id/medicineL"
+                    android:theme="@style/PrimaryButton"
+                    android:textSize="@dimen/main_btn_text"
+                    android:padding="@dimen/main_btn_padding"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Medicine long cases" />
+                    android:text="@string/medicineL" />
 
                 <Button
                     android:id="@+id/surgeryL"
+                    android:theme="@style/PrimaryButton"
+                    android:textSize="@dimen/main_btn_text"
+                    android:padding="@dimen/main_btn_padding"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Surgery long cases" />
+                    android:text="@string/surgeryL" />
 
 
 
                 <Button
                     android:id="@+id/paedL"
+                    android:theme="@style/PrimaryButton"
+                    android:textSize="@dimen/main_btn_text"
+                    android:padding="@dimen/main_btn_padding"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Pediatrics long cases" />
+                    android:text="@string/paedL" />
 
                 <Button
                     android:id="@+id/obsL"
+                    android:theme="@style/PrimaryButton"
+                    android:textSize="@dimen/main_btn_text"
+                    android:padding="@dimen/main_btn_padding"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Obstetrics long cases" />
+                    android:text="@string/obsL" />
 
                 <Button
                     android:id="@+id/gyneL"
+                    android:theme="@style/PrimaryButton"
+                    android:textSize="@dimen/main_btn_text"
+                    android:padding="@dimen/main_btn_padding"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Gynecology long cases" />
+                    android:text="@string/gyneL" />
+                <Button
+                    android:id="@+id/psychL"
+                    android:theme="@style/PrimaryButton"
+                    android:textSize="@dimen/main_btn_text"
+                    android:padding="@dimen/main_btn_padding"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/psychL" />
 
                 <Button
+                    android:id="@+id/about"
+                    android:theme="@style/PrimaryFlatButton"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="About"/>
@@ -62,45 +87,70 @@
             </LinearLayout>
 
             <LinearLayout
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_weight="1"
                 android:layout_height="wrap_content"
                 android:orientation="vertical">
 
                 <Button
                     android:id="@+id/medicineS"
+                    android:theme="@style/PrimaryButton"
+                    android:textSize="@dimen/main_btn_text"
+                    android:padding="@dimen/main_btn_padding"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Medicine short cases" />
+                    android:text="@string/medicineS" />
 
                 <Button
                     android:id="@+id/surgeryS"
+                    android:theme="@style/PrimaryButton"
+                    android:textSize="@dimen/main_btn_text"
+                    android:padding="@dimen/main_btn_padding"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Surgery short cases" />
+                    android:text="@string/surgeryS" />
 
                 <Button
                     android:id="@+id/paedS"
+                    android:theme="@style/PrimaryButton"
+                    android:textSize="@dimen/main_btn_text"
+                    android:padding="@dimen/main_btn_padding"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Pediatrics short cases" />
+                    android:text="@string/paedS" />
 
                 <Button
                     android:id="@+id/obsS"
+                    android:theme="@style/PrimaryButton"
+                    android:textSize="@dimen/main_btn_text"
+                    android:padding="@dimen/main_btn_padding"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Obstetrics short cases" />
+                    android:text="@string/obsS" />
 
                 <Button
                     android:id="@+id/gyneS"
+                    android:theme="@style/PrimaryButton"
+                    android:textSize="@dimen/main_btn_text"
+                    android:padding="@dimen/main_btn_padding"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Gynecology short cases" />
+                    android:text="@string/gyneS" />
+                <Button
+                    android:id="@+id/psychS"
+                    android:theme="@style/PrimaryButton"
+                    android:textSize="@dimen/main_btn_text"
+                    android:padding="@dimen/main_btn_padding"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/psychS" />
 
                  <Button
+                     android:id="@+id/feedback"
+                     android:theme="@style/PrimaryFlatButton"
                      android:layout_width="match_parent"
                      android:layout_height="wrap_content"
-                     android:text="Search"/>
+                     android:text="Feedback"/>
             </LinearLayout>
 
 
@@ -108,6 +158,22 @@
 
 
     </ScrollView>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/searchFAB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="25dp"
+
+        app:layout_anchorGravity="bottom|end"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:useCompatPadding="true"
+
+        android:clickable="true"
+        app:srcCompat="?android:attr/actionModeWebSearchDrawable"
+        tools:layout_editor_absoluteX="387dp"
+        tools:layout_editor_absoluteY="619dp" />
 
 
 </android.support.constraint.ConstraintLayout>

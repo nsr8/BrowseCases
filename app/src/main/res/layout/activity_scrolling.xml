@@ -5,10 +5,19 @@
     android:layout_height="match_parent"
     tools:context=".ScrollingActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_margin="@dimen/text_margin"
-        android:text="@string/large_text" />
+    <WebView
+
+        android:id="@+id/webViewShowNote"
+
+        android:layout_width="match_parent"
+
+        android:layout_height="match_parent">
+
+
+
+    </WebView>
+
+
+
 
 </android.support.v4.widget.NestedScrollView>
