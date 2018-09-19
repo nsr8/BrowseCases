@@ -93,7 +93,7 @@ public class ListActivity extends AppCompatActivity {
             // TODO add topic list
 
             // TODO to test template. delete after testing
-            //listOfTopics.add("Template");
+            listOfTopics.add("Template");
 
 
             //Add the last item to suggest a new topic
@@ -185,6 +185,7 @@ public class ListActivity extends AppCompatActivity {
 
             // obs short case list
             // TODO add topic list
+
 
             //Add the last item to suggest a new topic
             listOfTopics.add("Suggest new topic");
