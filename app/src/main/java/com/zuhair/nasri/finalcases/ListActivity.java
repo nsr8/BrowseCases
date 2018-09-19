@@ -13,6 +13,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 
 public class ListActivity extends AppCompatActivity {
 
@@ -37,8 +38,12 @@ public class ListActivity extends AppCompatActivity {
         //assign the array of topics to listOfTopics
         listOfTopics = new ArrayList<String>();
 
+
+
         //call getTopics method. Method is created outside onCreate method
         getTopics();
+
+
 
         // Create The Adapter with passing ArrayList as 3rd parameter
         ArrayAdapter<String> arrayAdapter =
@@ -55,6 +60,8 @@ public class ListActivity extends AppCompatActivity {
 
                 // TODO default toast. remove after completion
                 //Toast.makeText(getApplicationContext(), "your selected topic is : " + selectedTopic, Toast.LENGTH_LONG).show();
+
+
 
 
                 // TODO make an intent to display the topic in scroll view
@@ -82,6 +89,10 @@ public class ListActivity extends AppCompatActivity {
 
             // medicine short cases list
             // TODO add topic list
+
+            // TODO to test template. delete after testing
+            //listOfTopics.add("Template");
+
 
             //Add the last item to suggest a new topic
             listOfTopics.add("Suggest new topic");
@@ -130,6 +141,8 @@ public class ListActivity extends AppCompatActivity {
 
         }
         if (getIntent().getStringExtra("SECTION").equals("Pediatrics long cases")) {
+
+
 
             // paed long case list
             // TODO add topic list

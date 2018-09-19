@@ -65,6 +65,10 @@ public class ScrollingActivity extends Activity {
             //load the about documentation
             webView.loadUrl("file:///android_asset/aboutBrowseCases.html");
 
+        }else if (getIntent().getStringExtra("SECTION").equals("Template")){
+            // TODO display template page. delete after completion
+            webView.loadUrl("file:///android_asset/template.html");
+
         }else if (getIntent().getStringExtra("SECTION").equals("Suggest new topic")) {
             //load html page of suggest content
             webView.loadUrl("file:///android_asset/suggest.html");
@@ -74,6 +78,7 @@ public class ScrollingActivity extends Activity {
         }else if (getIntent().getStringExtra("SECTION").equals("Goiters")) {
             //Goiter surgery short case
             webView.loadUrl("file:///android_asset/ss_goiters.html");
+
 
 
         } else {
