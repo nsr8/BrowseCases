@@ -9,6 +9,7 @@ import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.ListView;
+import android.widget.SearchView;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -20,7 +21,8 @@ public class ListActivity extends AppCompatActivity {
     //declare variable
     TextView displaySection;
     ArrayList<String> listOfTopics;
-
+    SearchView searchAll;
+    ListView displayList;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -33,7 +35,7 @@ public class ListActivity extends AppCompatActivity {
 
 
         //declare and assign the variable displayLis
-        ListView displayList = (ListView) findViewById(R.id.displayList);
+       displayList = (ListView) findViewById(R.id.displayList);
 
         //assign the array of topics to listOfTopics
         listOfTopics = new ArrayList<String>();
@@ -231,11 +233,26 @@ public class ListActivity extends AppCompatActivity {
 
             //Add the last item to suggest a new topic
             listOfTopics.add("Suggest new topic");
+
+
+            // TODO add the search function
+        }if (getIntent().getStringExtra("SECTION").equals("Search")) {
+            //check if the search FAB was clicked
+
+            // hide the list of topics
+            displayList.setVisibility(View.GONE);
+
+            // create and display the searchView
+            searchAll = findViewById(R.id.searchAll);
+            searchAll.setVisibility(View.VISIBLE);
+
         }
 
 
 
-    }
+
+
+}
 
 
 }

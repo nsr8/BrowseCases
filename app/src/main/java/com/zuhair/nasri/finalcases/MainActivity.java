@@ -280,6 +280,9 @@ public class MainActivity extends AppCompatActivity {
                 Toast.makeText(MainActivity.this, "Search button is under construction", Toast.LENGTH_LONG).show();
 
                 // TODO Implement the search function
+                Intent sendSection = new Intent(MainActivity.this, ListActivity.class);
+                sendSection.putExtra("SECTION", "Search");
+                startActivity(sendSection);
             }
 
         });

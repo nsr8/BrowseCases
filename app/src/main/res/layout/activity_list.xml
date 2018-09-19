@@ -4,24 +4,34 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ListActivity"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    tools:context=".ListActivity">
+
+
     <TextView
         android:id="@+id/displaySection"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textColor="@color/colorTextDark"
         android:background="@color/colorPrimaryLight"
         android:textAlignment="center"
+        android:textColor="@color/colorTextDark"
         android:textSize="20sp"
 
-                />
+        />
+
+
+    <SearchView
+        android:id="@+id/searchAll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone" />
+
+
     <ListView
-        android:layout_gravity="center_vertical"
         android:id="@+id/displayList"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_weight="10"
-        ></ListView>
+        android:layout_gravity="center_vertical"
+        android:layout_weight="10"></ListView>
 
 </LinearLayout>
