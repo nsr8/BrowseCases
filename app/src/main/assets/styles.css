@@ -60,24 +60,7 @@ body {
 }
 
 /* Style unsorted list */
-ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-li {
-  padding-left: 8px;
-  text-indent: 5px;
-}
-
-li::before {
-  content: "\2022" ;
-  font-weight: bold;
-  color: #790e8b; /* color of the bullet **/
-  font-size:20px;
-  padding: 5px;
-}
+/* TODO find and add a style to bullet lists */
 
 /* Style tables */
 table {
