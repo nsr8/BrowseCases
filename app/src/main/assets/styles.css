@@ -44,6 +44,7 @@ body {
     color: black;
 }
 
+
 /* Style the content */
 .content {
     background-color: #ffffff;
@@ -53,5 +54,69 @@ body {
 /* Style the footer */
 .footer {
     background-color: #f1f1f1;
-    padding: 5px;
+    padding: 1px;
+	text-align: center;
+
 }
+
+/* Style unsorted list */
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  padding-left: 8px;
+  text-indent: 5px;
+}
+
+li::before {
+  content: "\2022" ;
+  font-weight: bold;
+  color: #790e8b; /* color of the bullet **/
+  font-size:20px;
+  padding: 5px;
+}
+
+/* Style tables */
+table {
+
+    border-collapse: collapse;
+
+border:2px solid #790e8b;
+    padding: 8px;
+}
+
+ /* Style the caption of the table */
+caption {
+	    padding: 2px;
+		font-weight:bold;
+    text-align: center;
+  text-transform: capitalize;
+ }
+
+ /* Style the heading of the table */
+ th {
+    border-right: 1px solid #ffffff;
+	border-left: 1px solid #ffffff;
+
+
+
+    padding: 8px;
+
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #790e8b;
+    color: white;
+}
+
+/* Style the cells of the table*/
+td {
+    border: 1px solid #790e8b;
+    padding: 8px;
+}
+
+/* Color the odd numberd rows*/
+ tr:nth-child(odd){background-color: #FDEDFF;}
