@@ -78,6 +78,9 @@ public class ScrollingActivity extends Activity {
         }else if (getIntent().getStringExtra("SECTION").equals("Goiters")) {
             //Goiter surgery short case
             webView.loadUrl("file:///android_asset/ss_goiters.html");
+        }else if (getIntent().getStringExtra("SECTION").equals("Lumps")){
+            //Lumps sugery short case
+            webView.loadUrl("file:///android_asset/ss_lumps.html");
 
 
 
