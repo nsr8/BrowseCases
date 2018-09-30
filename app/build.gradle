@@ -6,8 +6,8 @@ android {
         applicationId "com.zuhair.nasri.finalcases"
         minSdkVersion 15
         targetSdkVersion 28
-        versionCode 1
-        versionName "1.0"
+        versionCode 2
+        versionName "V1.0.2-Release (20180930)"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }
     buildTypes {
